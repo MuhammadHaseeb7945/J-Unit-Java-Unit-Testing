@@ -11,7 +11,7 @@ public class CalculatorTest {
 
 	@Test
 	public void test() {
-		assertEquals(actual,expected);
+		assertEquals(actual,expected);// assertion is all about reality and what you are comparing
 	}
 
 }
