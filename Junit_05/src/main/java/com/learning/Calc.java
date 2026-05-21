@@ -1,5 +1,7 @@
 package com.learning;
 
+import java.util.Arrays;
+
 public class Calc {
 	public int area(int a) {
 		return a*a;
@@ -9,4 +11,11 @@ public class Calc {
 	}
 	// sure file plugins hum is lia use krta ha kuka jb hmra pass eclipse ide na ho to code ko independetly run krna ho to surefireplugins use krain ga
 
+	
+	public int[] arraySort(int sorted[]) {
+		Arrays.sort(sorted);
+		return sorted;
+		
+	}
+	
 }
