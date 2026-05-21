@@ -17,5 +17,12 @@ public class Calc {
 		return sorted;
 		
 	}
+	public int[] arraySort1(int sorted[]) {
+		for(int i=0;i<100000;i++) {
+		Arrays.sort(sorted);
+		
+		}
+		return sorted;
+	}
 	
 }
